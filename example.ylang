@@ -1,0 +1,36 @@
+# Variable and say
+let x = 5
+say x
+
+# Array creation and methods
+array nums = [5,3,8,1,2]
+nums.insert(2, 9)
+nums.delete(4)
+nums.sort()
+say nums
+print_index = nums.search(9)
+say print_index
+
+# Linked List creation and methods
+linkedlist list
+list.insert(10)
+list.insert(20)
+list.insert(30)
+say list
+list.delete(20)
+say list
+
+# Tree creation and inorder traversal
+tree t
+t.insert(15)
+t.insert(10)
+t.insert(20)
+t.insert(8)
+t.insert(12)
+say t
+
+# repeat command
+repeat 2 times say "YLang is cool!"
+
+# add command
+add 10 to 20
