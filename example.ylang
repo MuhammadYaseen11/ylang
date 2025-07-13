@@ -34,3 +34,4 @@ repeat 2 times say "YLang is cool!"
 
 # add command
 add 10 to 20
+ say "hello"
