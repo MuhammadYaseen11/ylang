@@ -190,7 +190,7 @@ def interpret(line):
             var_name, method_call = words[0].split(".")
             if var_name not in variables:
                 print(f"[Error] Variable '{var_name}' not defined")
-                return
+                return #
             obj = variables[var_name]
             method_name = method_call[:method_call.find("(")]
             params_str = method_call[method_call.find("(")+1:method_call.find(")")]
